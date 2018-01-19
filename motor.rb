@@ -46,10 +46,11 @@ class Motor
   # the @quantity value to default to one (and not be nil) - this
   # is set in the super initialize in Motor.
   #
-  def quantity=(qty)
+  def set_quantity(qty) #should be quantity=(), but then calling from child doesn't work?
     @stall_current *= qty / @quantity
     @stall_torque *= qty / @quantity
     @max_power *= qty / @quantity
+    @quantity = qty
   end
 end
 
@@ -60,6 +61,6 @@ class CIM < Motor
     @stall_torque = 2.41
     @free_speed = 5330
     @max_power = 337
-    quantity = qty
+    set_quantity qty
   end
 end
