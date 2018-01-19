@@ -16,7 +16,7 @@ task :clean do
 end
 
 task :test do
-    sh "rubocop lib/vex-motors"
+    sh "rubocop lib/vex-motors.rb"
     sh "./test/test-vex-motors.rb"
 end
 
