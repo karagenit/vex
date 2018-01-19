@@ -64,3 +64,25 @@ class CIM < Motor
     set_quantity qty
   end
 end
+
+class MiniCIM < Motor
+  def initialize(qty = 1)
+    super()
+    @stall_current = 89
+    @stall_torque = 1.41
+    @free_speed = 5840
+    @max_power = 215
+    set_quantity qty
+  end
+end
+
+class Pro775 < Motor
+  def initialize(qty = 1)
+    super()
+    @stall_current = 134
+    @stall_torque = 0.71
+    @free_speed = 18730
+    @max_power = 347
+    set_quantity qty
+  end
+end
