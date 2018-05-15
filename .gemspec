@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
     s.name          = 'vex-motors'
     s.version       = IO.read('version.txt')
     s.license       = 'MIT'
-    s.summary       = 'Vex Pro Motor Data'
+    s.summary       = '[Deprecated] Vex Pro Motor Data'
     s.description   = 'Library containing detailed Vex motor specifications, including CIMs, MiniCIMs, and 775 Pros'
     s.homepage      = 'https://github.com/karagenit/vex'
     s.author        = 'Caleb Smith'
