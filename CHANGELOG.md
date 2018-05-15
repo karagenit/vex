@@ -1,5 +1,12 @@
 # Change Log
 
+## [v1.0.0b](https://github.com/karagenit/vex/tree/v1.0.0b) (2018-05-15)
+[Full Changelog](https://github.com/karagenit/vex/compare/v1.0.0...v1.0.0b)
+
+**Closed issues:**
+
+- Convert to Gem [\#1](https://github.com/karagenit/vex/issues/1)
+
 ## [v1.0.0](https://github.com/karagenit/vex/tree/v1.0.0) (2018-01-19)
 
 
